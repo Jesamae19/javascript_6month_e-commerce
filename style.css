@@ -3,154 +3,178 @@
 
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'PT Sans Narrow', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /* GOOGLE ICONS STYLE */
 /* search icon */
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
 
 html {
-    height: 1000px;
-    position: relative;
-    
+  height: 1000px;
+  position: relative;
 }
 
 /* NAVBAR Styles */
 nav {
-    width: 100%;
-    height: 60px;
-    background-color: azure;
-    position: sticky;
-    top: 2px;
-    color: rgb(41, 39, 39);
+  width: 100%;
+  height: 60px;
+  background-color: #f1f2f3;
+  position: sticky;
+  top: 0;
+  color: rgb(41, 39, 39);
 }
-.company, .links, .icons {
-    display: inline-block;
-}
-.company {
-    width: 120px;
-    vertical-align: -10px;
-    margin: 0 50px;
-}
-.links ul, .icons ul  {
-    list-style-type: none;
-}
-.links ul li a {
-    text-decoration: none;
-    color: rgb(41, 39, 39);
-}
-.links {
-    margin: 0 50px;
-    text-align: center;
-}
-.links ul li {
-    width: 120px;
-    display: inline-block;
-    vertical-align: -10px;
-}
-.company strong:hover, .links ul li:hover {
-    border-bottom: solid 2px whitesmoke;
-}
+
+.company,
+.links,
 .icons {
-    margin: 10px 0 0 20px; 
-    width: 25%;
+display: inline-block;
 }
+
+.company {
+  width: 30px;
+  vertical-align: -20px;
+  margin: 0 50px;
+}
+
+.links ul,
+.icons ul {
+  list-style-type: none;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: rgb(41, 39, 39);
+}
+
+.links {
+  text-align: center;
+}
+
+.links ul li {
+  width: 120px;
+  display: inline-block;
+  vertical-align: -20px;
+}
+
+.company strong:hover,
+.links ul li:hover {
+  border-bottom: solid 2px whitesmoke;
+}
+
+.icons {
+  margin: 10px 0 0 20px;
+  width: 25%;
+  float: right;
+}
+
 .icons ul li {
-    width: 20px;
-    display: inline-block;
-    vertical-align: -15px;
-    
+  width: 20px;
+  display: inline-block;
+  vertical-align: -15px;
+
 }
+
 .icons ul li:first-child {
-    margin: 0 10px 0 150px;
+  margin: 0 10px 0 150px; 
 }
 
 /* BODY */
-
-
-
 .bg-container {
-    height: 720px;
-    width: 100%;
-    background-image: url('foggy.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: red;
+  height: 720px;
+  width: 100%;
+  background-image: url('rows-hangers-with-clothes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+}
 
+.message-container {
+  text-align: center;
+  padding: 10px;
+  color: azure;
+  padding: 200px 0 0 0;
 }
-.message-container{
-    text-align: center;
-    padding: 10px;
-    color: azure;
-    padding: 200px 0 0 0;
-}
+
 .shop-container {
-    text-align: center;
-    width: 100%;
-    height: 600px;
-}
-.tshirt-container {
-    display: block;
-    margin: 50px 0 0;
-}
-.shirt1, .shirt2, .shirt3, .shirt4, .shirt5, .shirt6 {
-    width: 30%;
-    height: 200px;
-    display: inline-block;
-    background-color: aqua;
+  text-align: center;
+  width: 100%;
+  height: 600px;
 }
 
+.tshirt-container {
+  display: block;
+  margin: 50px 0 0;
+}
+
+.shirt1,
+.shirt2,
+.shirt3,
+.shirt4,
+.shirt5,
+.shirt6 {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  background-color: aqua;
+}
 
 /* DISCOUNTS */
 .discount-container {
-    height: 180px;
-    text-align: center;
-    background-color: #f1f2f3;
-    padding: 20px 0;
+  height: 180px;
+  text-align: center;
+  background-color: #f1f2f3;
+  padding: 20px 0;
 }
+
 #signup {
-    margin: 15px 0;
+  margin: 15px 0;
 }
+
 #randomtext {
-    margin: 15px 0;
+  margin: 15px 0;
 }
-#email, #button {
-    margin: 10px 0;
-}
-#email {
-    width: 130px;
-    height: 30px;
-}
+
+#email,
 #button {
-    background-color: #303687 ;
-    width: 90px;
-    height: 30px;
-    color: white;
-    letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+#email {
+  width: 130px;
+  height: 30px;
+  padding-left: 50px;
+}
+
+#button {
+  background-color: #303687;
+  width: 90px;
+  height: 30px;
+  color: white;
+  letter-spacing: 2px;
 }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    margin: 20px 0 20px 0;
-
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
+
 footer ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-footer ul li a {
-    text-decoration: none;
-    margin: 0 0 0 20px;
+  list-style-type: none;
+  display: inline-block;
 }
 
+footer ul li a {
+  text-decoration: none;
+  margin: 0 0 0 20px;
+}
